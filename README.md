@@ -19,28 +19,33 @@ Track recent donations
  **Tech I used**
 
 Frontend
+
 React
 React Router
 Axios
 CSS
 
 Backend
+
 Node.js
 Express
 MongoDB (Mongoose)
 
 📂** Project structure**
+
 client/   → React frontend
 
 server/   → Node + Express backend
 
 **What I learned**
+
 Connecting React with Express APIs
 Handling authentication using JWT
 Managing MongoDB data with Mongoose
 Debugging real issues (which took most of the time 😄)
 
 **Future improvements**
+
 Add real payment gateway
 Improve UI/UX
 Add user profiles
