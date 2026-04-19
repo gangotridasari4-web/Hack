@@ -31,6 +31,7 @@ MongoDB (Mongoose)
 
 📂** Project structure**
 client/   → React frontend
+
 server/   → Node + Express backend
 
 **What I learned**
