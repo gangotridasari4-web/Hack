@@ -1,0 +1,21 @@
+/* 🔥 RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 🔥 BODY FIX */
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+  overscroll-behavior: none;
+  font-family: system-ui, sans-serif;
+}
+
+/* 🔥 ROOT */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

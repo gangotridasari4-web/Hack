@@ -1,0 +1,149 @@
+/* HERO */
+.hero {
+  min-height: 90vh;
+  background: url("https://images.unsplash.com/photo-1542810634-71277d95dcbb")
+    center/cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 80px;
+  color: white;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+.hero-content {
+  position: relative;
+  max-width: 500px;
+}
+
+.hero-buttons {
+  margin-top: 25px;
+  display: flex;
+  gap: 20px;
+}
+
+/* BUTTON */
+.btn-pill {
+  background: #f97316;
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+
+  transition: all 0.3s ease;   /* smooth animation */
+}
+
+/* 🔥 HOVER EFFECT */
+.btn-pill:hover {
+  background: #ea580c;                 /* darker orange */
+  transform: translateY(-3px);         /* lift effect */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* 🔥 CLICK EFFECT */
+.btn-pill:active {
+  transform: translateY(0);            /* press effect */
+  box-shadow: none;
+}
+
+/* FEATURES */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background: white;
+  padding: 30px;
+  width: 250px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* ABOUT */
+.about {
+  padding: 80px 20px;
+  background: #f97316; 
+  text-align: center;
+}
+
+.about h1 {
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 700px;
+  margin: auto;
+}
+
+/* DONATE */
+.donate-box {
+  margin-top: 60px;
+  padding: 50px;
+  background: #f97316;
+  color: white;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* CAMPAIGNS */
+.campaign-section {
+  background: #0f172a;
+  color: white;
+  padding: 60px;
+}
+
+.campaign-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.campaign-card {
+  width: 300px;
+  background: #1e293b;
+  border-radius: 12px;
+  padding: 15px;
+}
+
+.campaign-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.progress {
+  background: #334155;
+  height: 8px;
+  border-radius: 10px;
+}
+
+.progress-bar {
+  background: #f97316;
+  height: 8px;
+}
+
+/* FOOTER */
+.footer {
+  background: #111827;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  margin-top: auto;
+}

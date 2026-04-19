@@ -1,0 +1,82 @@
+/* PAGE */
+.create-page {
+  min-height: 100vh;
+  background: #f1f5f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CARD */
+.create-card {
+  width: 100%;
+  max-width: 520px;
+  background: white;
+  padding: 40px;
+  border-radius: 25px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+  text-align: center;
+  animation: fadeUp 0.6s ease;
+}
+
+/* TITLE */
+.create-card h1 {
+  margin-bottom: 25px;
+  font-size: 32px;
+}
+
+/* INPUTS */
+.create-input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+/* 🔥 INPUT FOCUS EFFECT */
+.create-input:focus {
+  outline: none;
+  border-color: #f97316;
+  box-shadow: 0 0 0 3px rgba(249,115,22,0.2);
+}
+
+/* BUTTON */
+.create-btn {
+  width: 100%;
+  background: #f97316;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+/* 🔥 BUTTON HOVER */
+.create-btn:hover {
+  background: #ea580c;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* 🔥 BUTTON CLICK */
+.create-btn:active {
+  transform: scale(0.97);
+}
+
+/* 🔥 CARD ANIMATION */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
