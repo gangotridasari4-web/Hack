@@ -11,9 +11,13 @@ This project helped me learn how frontend and backend actually connect in a prac
 **What you can do here**
 
 Sign up and log in 
+
 Create your own fundraising campaign 
+
 Donate to any campaign 
+
 See how much money has been raised 
+
 Track recent donations 
 
  **Tech I used**
